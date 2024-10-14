@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mix-ETE</title>
+    <link rel="stylesheet" href="princ.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="/">Mix-ETE</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div> 
+            <ul class="nav-list">
+                <li><a href="/">Colaboradores</a></li>
+                <li><a href="/">Sobre o projeto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>Cadastro de Produtos</h1>
+        <form id="productForm">
+            <input type="text" id="nome" placeholder="Nome do Produto" required>
+            <input type="number" id="preco" placeholder="Preço" required>
+            <input type="number" id="quantidade" placeholder="Quantidade" required>
+            <input type="date" id="data_carregamento" required>
+            <button type="submit">Adicionar Produto</button>
+        </form>
+
+        <h2>Lista de Produtos</h2>
+        <ul id="productList"></ul>
+    </div>
+    
+    <script src="mobile-navbar.js"></script>
+    <script src="CRUD.js"></script>
+</body>
+</html>
