@@ -10,7 +10,7 @@ loginForm.addEventListener('submit', (event) => {
   // Simulando a verificação de credenciais (substitua pela sua lógica real)
   if (email === 'admin@gmail.com' && senha === '123456') {
     // Credenciais válidas, redirecionar para outra página
-    window.location.href = 'tela_prp/oi.html';
+    window.location.href = '/Pi-Mint/tela_prp/tela_princ.html';
   } else {
     mensagem.textContent = 'Usuário ou senha inválidos.';
   }
